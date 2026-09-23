@@ -7,49 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		99B2A730DF39324CEBB0881D /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB1A4B5FC5A28F21276E7D6 /* Shell.swift */; };
-		EC9235BE2065CB2B7D97A58B /* Lang.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71ADCD0E993EF8F918245E5 /* Lang.swift */; };
-		AAC4596BE83B85956AABF1ED /* SystemStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E54FF770DFF5FF43ED0A9 /* SystemStats.swift */; };
-		41868C498BCD9D07B34C4696 /* ProcessTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990B5B23BA2F0F168BE9BA64 /* ProcessTable.swift */; };
-		ED229584FCAE13DCFCF81D67 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E483070227562CEF694CBE /* Priority.swift */; };
-		B4BE16A89728D2CABC28632C /* Caffeine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E240A23AB6122D5812A8E78 /* Caffeine.swift */; };
-		32C2AFF5B5ECF4813ED32855 /* Benchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93388EB03C3A5658278E799A /* Benchmark.swift */; };
-		705E99E17C66A54245C8EE2D /* LoginItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01157CEF6D301706D09407D4 /* LoginItem.swift */; };
-		3488EA3DF7A48BF1A69F55D4 /* Relaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8422692216C54FC2EB4FC6 /* Relaunch.swift */; };
-		A8DBF1B2C29AAD76ED220C77 /* AppRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2F4F818EAF782FA41D0A2C /* AppRow.swift */; };
-		7E404503D4B6BD22919B3930 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C4A66D7427918AEAA5A12F /* Components.swift */; };
 		1240591A6942C45190C67D8E /* BenchCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C45C640F4ABE050F8697F9 /* BenchCard.swift */; };
+		32718CD8D82E9951BE3AAF92 /* PriorityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565E633F8539BD83DF4DB26E /* PriorityTests.swift */; };
+		32C2AFF5B5ECF4813ED32855 /* Benchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93388EB03C3A5658278E799A /* Benchmark.swift */; };
 		343BB631B21CF678CA8E7FFD /* MenuPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3341579DC9648A8275180039 /* MenuPanel.swift */; };
+		3488EA3DF7A48BF1A69F55D4 /* Relaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8422692216C54FC2EB4FC6 /* Relaunch.swift */; };
+		41868C498BCD9D07B34C4696 /* ProcessTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990B5B23BA2F0F168BE9BA64 /* ProcessTable.swift */; };
+		42D242339E5A3295ADAC8671 /* ProcessTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C1D216C75E7A61B8958B52 /* ProcessTableTests.swift */; };
+		44922ACAE147FFCC5BAF85E7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668DB9AF985A9E37DF62728A /* Cocoa.framework */; };
+		660CF031B46DAA37358F35B0 /* BenchmarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819C279ABAAC37068AD8D9B /* BenchmarkTests.swift */; };
+		705E99E17C66A54245C8EE2D /* LoginItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01157CEF6D301706D09407D4 /* LoginItem.swift */; };
+		7E404503D4B6BD22919B3930 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C4A66D7427918AEAA5A12F /* Components.swift */; };
+		822E3B0306461AD3104C4AF0 /* SystemStatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53411884DAE3801AC0F75325 /* SystemStatsTests.swift */; };
+		99B2A730DF39324CEBB0881D /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB1A4B5FC5A28F21276E7D6 /* Shell.swift */; };
+		9C29FF9751D74FD60697E9AE /* Policy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D9F62E4D9A7A445EB65AB0 /* Policy.swift */; };
+		A8DBF1B2C29AAD76ED220C77 /* AppRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2F4F818EAF782FA41D0A2C /* AppRow.swift */; };
+		AAC4596BE83B85956AABF1ED /* SystemStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E54FF770DFF5FF43ED0A9 /* SystemStats.swift */; };
+		AF332B85EEBF4E6655A4ABC1 /* AppRowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AE6F49FE0B1609578F45F /* AppRowTests.swift */; };
+		B4BE16A89728D2CABC28632C /* Caffeine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E240A23AB6122D5812A8E78 /* Caffeine.swift */; };
+		BC60E2228740CDDEFAAA3818 /* TurboMac.icns in Resources */ = {isa = PBXBuildFile; fileRef = AD043AEE7FE02E3E2216CDB3 /* TurboMac.icns */; };
 		CC08D4D73BCC8FE682C0FE2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F92216919BDEF76457DB8F6 /* ContentView.swift */; };
 		D1A8FCB3DC79088164FD9B8A /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE547BC67144F644C27D84C /* Store.swift */; };
 		E9A2D4F0F4B763E2AF5CFBEF /* TurboMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B339E979DB9D16D45764F466 /* TurboMacApp.swift */; };
-		9C29FF9751D74FD60697E9AE /* Policy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D9F62E4D9A7A445EB65AB0 /* Policy.swift */; };
-		BC60E2228740CDDEFAAA3818 /* TurboMac.icns in Resources */ = {isa = PBXBuildFile; fileRef = AD043AEE7FE02E3E2216CDB3 /* TurboMac.icns */; };
+		EC9235BE2065CB2B7D97A58B /* Lang.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71ADCD0E993EF8F918245E5 /* Lang.swift */; };
+		ED229584FCAE13DCFCF81D67 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E483070227562CEF694CBE /* Priority.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		123453AF2A7A424C69ADDB92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DC844ABCCFC0D132D087C1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42AEFBAE01D2DFD981F7DA7D;
+			remoteInfo = TurboMac;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		8FB1A4B5FC5A28F21276E7D6 /* Shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
-		F71ADCD0E993EF8F918245E5 /* Lang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lang.swift; sourceTree = "<group>"; };
-		666E54FF770DFF5FF43ED0A9 /* SystemStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemStats.swift; sourceTree = "<group>"; };
-		990B5B23BA2F0F168BE9BA64 /* ProcessTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessTable.swift; sourceTree = "<group>"; };
-		E7E483070227562CEF694CBE /* Priority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Priority.swift; sourceTree = "<group>"; };
-		2E240A23AB6122D5812A8E78 /* Caffeine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caffeine.swift; sourceTree = "<group>"; };
-		93388EB03C3A5658278E799A /* Benchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benchmark.swift; sourceTree = "<group>"; };
 		01157CEF6D301706D09407D4 /* LoginItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginItem.swift; sourceTree = "<group>"; };
-		3D8422692216C54FC2EB4FC6 /* Relaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relaunch.swift; sourceTree = "<group>"; };
-		FB2F4F818EAF782FA41D0A2C /* AppRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRow.swift; sourceTree = "<group>"; };
-		39C4A66D7427918AEAA5A12F /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
-		78C45C640F4ABE050F8697F9 /* BenchCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchCard.swift; sourceTree = "<group>"; };
-		3341579DC9648A8275180039 /* MenuPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPanel.swift; sourceTree = "<group>"; };
-		3F92216919BDEF76457DB8F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		290AE6F49FE0B1609578F45F /* AppRowTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppRowTests.swift; sourceTree = "<group>"; };
 		2BE547BC67144F644C27D84C /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		2E240A23AB6122D5812A8E78 /* Caffeine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caffeine.swift; sourceTree = "<group>"; };
+		3341579DC9648A8275180039 /* MenuPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPanel.swift; sourceTree = "<group>"; };
+		39C4A66D7427918AEAA5A12F /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		3D8422692216C54FC2EB4FC6 /* Relaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relaunch.swift; sourceTree = "<group>"; };
+		3F92216919BDEF76457DB8F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		53411884DAE3801AC0F75325 /* SystemStatsTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SystemStatsTests.swift; sourceTree = "<group>"; };
+		565E633F8539BD83DF4DB26E /* PriorityTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PriorityTests.swift; sourceTree = "<group>"; };
+		5BF603AB0EBD41E933DB69A0 /* TurboMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurboMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		666E54FF770DFF5FF43ED0A9 /* SystemStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemStats.swift; sourceTree = "<group>"; };
+		668DB9AF985A9E37DF62728A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		78C45C640F4ABE050F8697F9 /* BenchCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchCard.swift; sourceTree = "<group>"; };
+		79C1D216C75E7A61B8958B52 /* ProcessTableTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProcessTableTests.swift; sourceTree = "<group>"; };
+		8819C279ABAAC37068AD8D9B /* BenchmarkTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BenchmarkTests.swift; sourceTree = "<group>"; };
+		8FB1A4B5FC5A28F21276E7D6 /* Shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		93388EB03C3A5658278E799A /* Benchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benchmark.swift; sourceTree = "<group>"; };
+		990B5B23BA2F0F168BE9BA64 /* ProcessTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessTable.swift; sourceTree = "<group>"; };
+		AD043AEE7FE02E3E2216CDB3 /* TurboMac.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TurboMac.icns; sourceTree = "<group>"; };
 		B339E979DB9D16D45764F466 /* TurboMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurboMacApp.swift; sourceTree = "<group>"; };
 		DF56A81F6C35A89FD50C8B5E /* TurboMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurboMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E483070227562CEF694CBE /* Priority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Priority.swift; sourceTree = "<group>"; };
+		F71ADCD0E993EF8F918245E5 /* Lang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lang.swift; sourceTree = "<group>"; };
 		F9D9F62E4D9A7A445EB65AB0 /* Policy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Policy.swift; sourceTree = "<group>"; };
-		AD043AEE7FE02E3E2216CDB3 /* TurboMac.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TurboMac.icns; sourceTree = "<group>"; };
+		FB2F4F818EAF782FA41D0A2C /* AppRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1D436F9597083EC154C012CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44922ACAE147FFCC5BAF85E7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3D8B5083D32A6C62EC570890 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,30 +91,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FAD58DE7366495DB4650CFEF = {
+		0ABC3EB6DE2FF40948B036F0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8B13BCADB249DBAF20C40681 /* TurboMac */,
-				4FA33076EAECEB132DE7726D /* Products */,
+				AD043AEE7FE02E3E2216CDB3 /* TurboMac.icns */,
 			);
-			sourceTree = "<group>";
-		};
-		83791AAA3ABE9C740744D1DA /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				8FB1A4B5FC5A28F21276E7D6 /* Shell.swift */,
-				F71ADCD0E993EF8F918245E5 /* Lang.swift */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		F093452A94C358604A56D02E /* System */ = {
-			isa = PBXGroup;
-			children = (
-				666E54FF770DFF5FF43ED0A9 /* SystemStats.swift */,
-				990B5B23BA2F0F168BE9BA64 /* ProcessTable.swift */,
-			);
-			path = System;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		1EAD6A57624638550E773624 /* Engine */ = {
@@ -99,12 +112,13 @@
 			path = Engine;
 			sourceTree = "<group>";
 		};
-		BDA0940AFB400B2D73EDE989 /* Models */ = {
+		4FA33076EAECEB132DE7726D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FB2F4F818EAF782FA41D0A2C /* AppRow.swift */,
+				DF56A81F6C35A89FD50C8B5E /* TurboMac.app */,
+				5BF603AB0EBD41E933DB69A0 /* TurboMacTests.xctest */,
 			);
-			path = Models;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		5A90CB23A10D7ADC74BEF5AB /* UI */ = {
@@ -116,6 +130,15 @@
 				3F92216919BDEF76457DB8F6 /* ContentView.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		83791AAA3ABE9C740744D1DA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8FB1A4B5FC5A28F21276E7D6 /* Shell.swift */,
+				F71ADCD0E993EF8F918245E5 /* Lang.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 		8B13BCADB249DBAF20C40681 /* TurboMac */ = {
@@ -133,20 +156,60 @@
 			path = TurboMac;
 			sourceTree = "<group>";
 		};
-		4FA33076EAECEB132DE7726D /* Products */ = {
+		9545FF998B80AAA1968BEA6D /* OS X */ = {
 			isa = PBXGroup;
 			children = (
-				DF56A81F6C35A89FD50C8B5E /* TurboMac.app */,
+				668DB9AF985A9E37DF62728A /* Cocoa.framework */,
 			);
-			name = Products;
+			name = "OS X";
 			sourceTree = "<group>";
 		};
-		0ABC3EB6DE2FF40948B036F0 /* Resources */ = {
+		96D92140826B9FF8380C6796 /* TurboMacTests */ = {
 			isa = PBXGroup;
 			children = (
-				AD043AEE7FE02E3E2216CDB3 /* TurboMac.icns */,
+				290AE6F49FE0B1609578F45F /* AppRowTests.swift */,
+				8819C279ABAAC37068AD8D9B /* BenchmarkTests.swift */,
+				565E633F8539BD83DF4DB26E /* PriorityTests.swift */,
+				79C1D216C75E7A61B8958B52 /* ProcessTableTests.swift */,
+				53411884DAE3801AC0F75325 /* SystemStatsTests.swift */,
 			);
-			path = Resources;
+			name = TurboMacTests;
+			path = TurboMacTests;
+			sourceTree = "<group>";
+		};
+		BDA0940AFB400B2D73EDE989 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FB2F4F818EAF782FA41D0A2C /* AppRow.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC27CC55BA36C49B703C84D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9545FF998B80AAA1968BEA6D /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F093452A94C358604A56D02E /* System */ = {
+			isa = PBXGroup;
+			children = (
+				666E54FF770DFF5FF43ED0A9 /* SystemStats.swift */,
+				990B5B23BA2F0F168BE9BA64 /* ProcessTable.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		FAD58DE7366495DB4650CFEF = {
+			isa = PBXGroup;
+			children = (
+				8B13BCADB249DBAF20C40681 /* TurboMac */,
+				4FA33076EAECEB132DE7726D /* Products */,
+				96D92140826B9FF8380C6796 /* TurboMacTests */,
+				EC27CC55BA36C49B703C84D5 /* Frameworks */,
+			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +231,24 @@
 			productName = TurboMac;
 			productReference = DF56A81F6C35A89FD50C8B5E /* TurboMac.app */;
 			productType = "com.apple.product-type.application";
+		};
+		C281B22354E813863956272D /* TurboMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 743E0AB6A383DBD96B0F241F /* Build configuration list for PBXNativeTarget "TurboMacTests" */;
+			buildPhases = (
+				D4D26CAEEAF06929595FF1FD /* Sources */,
+				1D436F9597083EC154C012CE /* Frameworks */,
+				85E51C0E52ABD128D43969BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D45F425459A3BA2A5A0FEFB5 /* PBXTargetDependency */,
+			);
+			name = TurboMacTests;
+			productName = TurboMacTests;
+			productReference = 5BF603AB0EBD41E933DB69A0 /* TurboMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -199,11 +280,19 @@
 			projectRoot = "";
 			targets = (
 				42AEFBAE01D2DFD981F7DA7D /* TurboMac */,
+				C281B22354E813863956272D /* TurboMacTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		85E51C0E52ABD128D43969BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4312C6F8E1F6FA1100F9417 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,6 +304,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D4D26CAEEAF06929595FF1FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF332B85EEBF4E6655A4ABC1 /* AppRowTests.swift in Sources */,
+				660CF031B46DAA37358F35B0 /* BenchmarkTests.swift in Sources */,
+				32718CD8D82E9951BE3AAF92 /* PriorityTests.swift in Sources */,
+				42D242339E5A3295ADAC8671 /* ProcessTableTests.swift in Sources */,
+				822E3B0306461AD3104C4AF0 /* SystemStatsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DB8B7DCF60E1B2DD9809ACA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -241,7 +342,66 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D45F425459A3BA2A5A0FEFB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TurboMac;
+			target = 42AEFBAE01D2DFD981F7DA7D /* TurboMac */;
+			targetProxy = 123453AF2A7A424C69ADDB92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		1E2CAC35E1111C76D5A4B82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tunaarikaya.TurboMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurboMac.app/Contents/MacOS/TurboMac";
+			};
+			name = Debug;
+		};
+		626726E60BD1215F36719A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleIconFile = TurboMac;
+				INFOPLIST_KEY_LSUIElement = NO;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuna.turbomac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		64E1E1CBE1CA8E88EF3A838A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
 		B69466B536F8CE43B6356EC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -262,44 +422,25 @@
 			};
 			name = Debug;
 		};
-		64E1E1CBE1CA8E88EF3A838A /* Release */ = {
+		DCF4ABDE40E20991CA58AAB4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tunaarikaya.TurboMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurboMac.app/Contents/MacOS/TurboMac";
 			};
 			name = Release;
-		};
-		626726E60BD1215F36719A30 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_APP_SANDBOX = NO;
-				ENABLE_HARDENED_RUNTIME = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GENERATE_INFOPLIST_FILE = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = "";
-				INFOPLIST_KEY_CFBundleIconFile = TurboMac;
-				INFOPLIST_KEY_LSUIElement = NO;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tuna.turbomac;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
 		};
 		E7D707A26E7F7B6FF52C489C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -308,7 +449,6 @@
 				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = "";
 				INFOPLIST_KEY_CFBundleIconFile = TurboMac;
 				INFOPLIST_KEY_LSUIElement = YES;
 				MARKETING_VERSION = 1.0;
@@ -326,6 +466,15 @@
 			buildConfigurations = (
 				B69466B536F8CE43B6356EC1 /* Debug */,
 				64E1E1CBE1CA8E88EF3A838A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		743E0AB6A383DBD96B0F241F /* Build configuration list for PBXNativeTarget "TurboMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF4ABDE40E20991CA58AAB4 /* Release */,
+				1E2CAC35E1111C76D5A4B82A /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
